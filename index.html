@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <link rel='stylesheet' href='fullcalendar.css' />
+    <script src='lib/jquery.min.js'></script>
+    <script src='lib/moment.min.js'></script>
+    <script src='fullcalendar.js'></script>
+    <div id='calendar'></div>
+    <script type="text/javascript">
+        $(document).ready(function() {
+          $('#calendar').fullCalendar({
+              // weekends: false,
+              // dayClick: function() {
+              //   alert('a day has been clicked!');
+              // },
+              // defaultView: 'agendaWeek'
+          });
+        });
+    </script>
+  </body>
+</html>
